@@ -3,11 +3,14 @@
     <head>
         <title>Belajar AngularJs</title>
         <script src="js/angular.min.js"></script>
+        <script src="js/myapp.js"></script>
     </head>
     <body>
-    <div ng-app="">
-    Name : <input type="text" ng-model="name">
-    <p> The name is {{name}} </p>
+    <div ng-app="myApp" ng-controller="myCtrl">
+    <p>First Name : <input type="text" ng-model="firstname"></p>
+    <p>Last Name : <input type="text" ng-model="lastname"></p>
+    <br>
+    <p>Full Name : {{firstname +"	"+ lastname}}</p>
     </div>
     </body>
 </html>

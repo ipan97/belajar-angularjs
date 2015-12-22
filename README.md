@@ -7,7 +7,10 @@
     mendownload file angular.min.js dan di angularjs.org kemudian include ke project
 #try
 bisa di lihat pada index.html
-#untuk mendeffnisikan angular js : ng-app
-#untuk mendefinisikan model seperti textarea dll : ng-model
-#untuk menampilkan dalam bentuk HTML : ng-bind
-`
+untuk mendeffnisikan angular js : ng-app
+untuk mendefinisikan model seperti textarea dll : ng-model
+untuk menampilkan dalam bentuk HTML : ng-bind
+Try AngularJs Application MVC
+untuk mendefinisikan controller : ng-controller
+
+
